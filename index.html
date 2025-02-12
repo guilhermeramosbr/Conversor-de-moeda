@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <img id="logo" src="imagens/logo_projeto3.gif" alt="">
+        <div id="container_conversor">
+            <label class="label_conversor" for="input1">Converter de</label>
+            <select class="select_conversor" name="input1" id="input1">
+                <option value="valor1">BRL/Real Brasileiro</option>
+                <option value="valor2">USD Dolar Americano</option>
+                <option value="valor3">EUR/ Euro</option>
+            </select>
+            <label class="label_conversor" for="input2">Converter para</label>
+            <select class="select_conversor" name="input2" id="input2">
+                <option value="valor2">USD/Dolar Americano</option>
+                <option value="valor1">BRL/Real Brasileiro</option>
+                <option value="valor3">EUR/ Euro</option>
+            </select>
+            <button id="button_conversor" onclick="converter()">Converter</button>
+            <div id="container_resultado">
+                <img class="imagem_bandeira" src="imagens/imagem_br.png" alt="">
+                <p>Real</p>
+                <p>R$ 10000,00</p>
+                <p>⬇</p>
+                <img class="imagem_bandeira" src="imagens/imagem_eua.png" alt="">
+                <P>Dolar</P>
+                <P>US$ 2000,00</P>
+                
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
