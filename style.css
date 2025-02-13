@@ -53,9 +53,35 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 250px;
+    color: #8A51FC;
 }
 .imagem_bandeira{
     border-radius: 300px;
     width: 50px;
     height: 50px;
+    margin-top: 10px;
+}
+.txt_moeda{
+    color: #777373;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+.txt_valor{
+    color: #353333;
+    margin-bottom: 6px;
+    font-size: 17px;
+    font-weight: bold ;
+}
+#seta{
+    display: flex;
+    font-weight: bolder;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
 }
