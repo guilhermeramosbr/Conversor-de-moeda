@@ -38,6 +38,16 @@ function mudarImagem1(){
         moeda1.textContent = 'Euro'
         dinheiro1.textContent = `EUR ${valorConverter.value}`
     }
+    if(select1.value == '7.43'){
+        imagem1.src = 'imagens/imagem_libras.png'
+        moeda1.textContent = 'Libras'
+        dinheiro1.textContent = `GBP ${valorConverter.value}`
+    }
+    if(select1.value == '555688.33'){
+        imagem1.src = 'imagens/Imagem_bitcoin.png'
+        moeda1.textContent = 'Bitcoins'
+        dinheiro1.textContent = `BIC ${valorConverter.value}`
+    }
 
 }
 function mudarImagem2(){
@@ -55,6 +65,16 @@ function mudarImagem2(){
         imagem2.src = 'imagens/imagem_euro.webp'
         moeda2.textContent = 'Euro'
         dinheiro2.textContent = `EUR ${convercao.toFixed(2)}`
+    }
+    if(select2.value == '7.43'){
+        imagem2.src = 'imagens/imagem_libras.png'
+        moeda2.textContent = 'Libras'
+        dinheiro2.textContent = `GBP ${convercao.toFixed(2)}`
+    }
+    if(select2.value == '555688.33'){
+        imagem2.src = 'imagens/Imagem_bitcoin.png'
+        moeda2.textContent = 'Bitcoins'
+        dinheiro2.textContent = `BIT ${convercao}`
     }
 }
     
